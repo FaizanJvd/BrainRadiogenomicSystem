@@ -1,0 +1,58 @@
+.Background_Image{
+    background-image:url("../../images/h1.jpg");
+    height:100vh;
+    width:100%;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.Form_Container{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    width: 380px;
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow: 12px 12px 60px #000;
+    
+}
+.Form{
+    display: flex;
+    flex-direction: column;
+}
+.H1{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 1em;
+}
+.Label{
+    color: #fff;
+    font-size: 1em;
+}
+.control{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    outline: none;
+    margin: 1em 0;
+    background-color: rgba(24, 64, 71, 0.5);
+}
+input[type="submit"]{
+    background: rgb(2, 67, 78);
+    color: #fff;
+    font-size: 1.2em;
+    opacity: .8;
+}
+input[type="submit"]:hover{
+    opacity: 1;
+}

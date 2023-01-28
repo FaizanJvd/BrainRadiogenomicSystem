@@ -1,0 +1,78 @@
+
+.Container_heading{
+    font-size: 2em;
+    top:1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.Container_heading::before{
+    content: " ";
+    position: absolute;
+    height: 3px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(135deg,rgb(210, 210, 210),rgb(129, 130, 131));
+}
+form{
+    margin-top: 4em;
+}
+.Form_container{
+    display: grid;
+    justify-content: space-around;
+}
+.Form_input{
+    display: inline-flex;
+    padding: 30px;
+
+}
+span{
+    display: block;
+    font-weight: 500;
+    margin-top: 8px;
+    width: 14em;
+    margin-left: 4em;
+}
+.Input{
+    height: 45px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    transition: all 0.3 ease;
+    border:1px solid #fff;
+    outline: none;
+    font-size: 16px;
+    border-bottom-width: 2px;
+}
+input:focus,
+input:valid{
+    border-color: rgb(16, 131, 29);
+}
+/* input:invalid{
+    border-color: rgb(164, 38, 38);
+} */
+.Radio_title{
+    font-weight: 500;
+    font-size: 20px;
+}
+input[type="radio"]{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+input[type="submit"]{
+    height: 100%;
+    width: 50%;
+    color: #fff;
+    font-weight: 500;
+}
+.Btn_div{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}

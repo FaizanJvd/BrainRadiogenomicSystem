@@ -1,0 +1,57 @@
+.Main_container{
+    color: rgb(0, 0, 0);
+    /* background: linear-gradient(135deg,rgb(235, 235, 235),rgba(112, 153, 236, 0.979)); */
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+}
+.Container{
+    max-width: 700px;
+    padding: 25px 30px;
+    border-radius: 25px;
+    
+    background: linear-gradient(260deg,rgb(241 241 241 / 98%),rgb(245 245 245));
+    width: 100%;
+}
+.Heading{
+    font-size: 2em;
+    top:1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    position: sticky;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.Heading::before{
+    content: " ";
+    position: absolute;
+    height: 3px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(135deg,rgb(177, 177, 177),rgb(152, 152, 152));
+}
+.Sym_From_container{
+    display: block;
+}
+.Group{
+    padding: 20px 0px 10px 30px; 
+    /* [top right buttom left] */
+    margin: 8px;
+}
+input[type=checkbox]{
+    height: 30px;
+    width: 30px;
+}
+MyLabel{
+    font-size: 30px;
+    padding-left: 1em;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}

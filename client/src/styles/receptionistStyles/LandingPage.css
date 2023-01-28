@@ -1,0 +1,54 @@
+.NavBackground{
+    background:#618aae
+    /* linear-gradient(80deg,rgb(208, 227, 255),rgb(74, 122, 225)); */
+}
+.LandingTitle{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: #07128e;
+    text-align: center;
+    text-transform: capitalize;
+}
+.TitleSub{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    color:  #3d80eb;
+    text-align: center;
+    font-size: 22;
+}
+.PageHeading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    text-transform: capitalize;
+}
+.Main_Container{
+    background-color:rgb(255, 255, 255) ;
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgb(242, 242, 242); 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgb(0, 0, 0); 
+}
+.title-h2 {
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 8px 20px;
+    margin: 0;
+    background: #97b7dc;
+    color: #106eea;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 50px;
+    align-items: center;
+  }

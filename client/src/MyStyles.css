@@ -1,0 +1,28 @@
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: flex-end; */
+    flex-wrap: wrap;
+    /* flex-flow: column wrap; */
+}
+/* .flex-item{
+    
+} */
+.sidebar{
+    /* order:2; //placement
+    flex-grow: 2; //expension */
+    flex-shrink: 2;
+    flex-direction: column;
+    /* align-self: center; */
+}
+.adminRoutes{
+    flex-grow: 2;
+    height: max-content;
+}
+.regPanel{
+    flex-shrink: 3;
+}
+.panel{
+    align-items:center;
+}
